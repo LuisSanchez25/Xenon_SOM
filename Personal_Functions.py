@@ -47,18 +47,6 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 4,
-   "id": "99228570-5efd-42ad-97dd-0ce1a7247821",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "def compute_decile(data, start, end):\n",
-    "    t_area = (data['area'])\n",
-    "    "
-   ]
-  },
-  {
-   "cell_type": "code",
    "execution_count": 5,
    "id": "488219a6-ff15-477f-835b-00c5568760ed",
    "metadata": {},
