@@ -1,0 +1,149 @@
+{
+    "chunk_target_size_mb": 200,
+    "chunks": [
+        {
+            "chunk_i": 0,
+            "end": 10049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "3",
+            "start": 49900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 1,
+            "end": 20049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "3",
+            "start": 10049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 2,
+            "end": 30049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "3",
+            "start": 20049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 3,
+            "end": 40049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "3",
+            "start": 30049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 4,
+            "end": 50049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "3",
+            "start": 40049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 5,
+            "end": 60049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "3",
+            "start": 50049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 6,
+            "end": 70049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "3",
+            "start": 60049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 7,
+            "end": 80049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "3",
+            "start": 70049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 8,
+            "end": 90049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "3",
+            "start": 80049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 9,
+            "end": 99950008500,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "3",
+            "start": 90049900000,
+            "subruns": null
+        }
+    ],
+    "compressor": "zstd",
+    "data_kind": "raw_records_he",
+    "data_type": "raw_records_he",
+    "dtype": "[(('Start time since unix epoch [ns]', 'time'), '<i8'), (('Length of the interval in samples', 'length'), '<i4'), (('Width of one sample [ns]', 'dt'), '<i2'), (('Channel/PMT number', 'channel'), '<i2'), (('Length of pulse to which the record belongs (without zero-padding)', 'pulse_length'), '<i4'), (('Fragment number in the pulse', 'record_i'), '<i2'), (('Baseline determined by the digitizer (if this is supported)', 'baseline'), '<i2'), (('Waveform data in raw ADC counts', 'data'), '<i2', (110,))]",
+    "end": 99950008500,
+    "lineage": {
+        "truth": [
+            "RawRecordsFromFaxNT",
+            "0.0.0",
+            {
+                "detector": "XENONnT",
+                "fax_config": "fax_config_nt_design.json",
+                "fax_config_override": null,
+                "fax_config_override_from_cmt": {
+                    "drift_time_gate": [
+                        "cmt_run_id",
+                        "00001",
+                        "electron_drift_time_gate",
+                        "ONLINE",
+                        true
+                    ],
+                    "drift_velocity_liquid": [
+                        "cmt_run_id",
+                        "00001",
+                        "electron_drift_velocity",
+                        "ONLINE",
+                        true
+                    ],
+                    "electron_lifetime_liquid": [
+                        "cmt_run_id",
+                        "00001",
+                        "elife",
+                        "ONLINE",
+                        true
+                    ]
+                },
+                "gain_model_mc": [
+                    "cmt_run_id",
+                    "00001",
+                    "to_pe_model",
+                    "ONLINE",
+                    true
+                ],
+                "per_pmt_truth": false,
+                "right_raw_extension": 100000
+            }
+        ]
+    },
+    "lineage_hash": "c7l4orzwi7",
+    "run_id": "3",
+    "start": 49900000,
+    "strax_version": "1.2.3",
+    "writing_ended": 1660693293.893806,
+    "writing_started": 1660693237.8122678
+}

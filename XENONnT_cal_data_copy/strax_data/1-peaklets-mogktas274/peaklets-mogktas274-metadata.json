@@ -1,0 +1,161 @@
+{
+    "chunk_target_size_mb": 200,
+    "chunks": [
+        {
+            "chunk_i": 0,
+            "end": 998650076010,
+            "filename": "peaklets-mogktas274-000000",
+            "filesize": 83704,
+            "first_endtime": 4350126040,
+            "first_time": 4350125260,
+            "last_endtime": 993750096960,
+            "last_time": 993750096340,
+            "n": 310,
+            "nbytes": 1053070,
+            "run_id": "1",
+            "start": 49900000,
+            "subruns": null
+        }
+    ],
+    "compressor": "zstd",
+    "data_kind": "peaklets",
+    "data_type": "peaklets",
+    "dtype": "[(('Start time since unix epoch [ns]', 'time'), '<i8'), (('Length of the interval in samples', 'length'), '<i4'), (('Width of one sample [ns]', 'dt'), '<i4'), (('Channel/PMT number', 'channel'), '<i2'), (('Classification of the peak(let)', 'type'), '|i1'), (('Integral across channels [PE]', 'area'), '<f4'), (('Integral per channel [PE]', 'area_per_channel'), '<f4', (494,)), (('Number of hits contributing at least one sample to the peak ', 'n_hits'), '<i4'), (('Waveform data in PE/sample (not PE/ns!)', 'data'), '<f4', (200,)), (('Peak widths in range of central area fraction [ns]', 'width'), '<f4', (11,)), (('Peak widths: time between nth and 5th area decile [ns]', 'area_decile_from_midpoint'), '<f4', (11,)), (('Does the channel reach ADC saturation?', 'saturated_channel'), '|i1', (494,)), (('Total number of saturated channels', 'n_saturated_channels'), '<i2'), (('Channel within tight range of mean', 'tight_coincidence'), '<i2'), (('Largest gap between hits inside peak [ns]', 'max_gap'), '<i4'), (('Maximum interior goodness of split', 'max_goodness_of_split'), '<f4')]",
+    "end": 998650076010,
+    "lineage": {
+        "lone_hits": [
+            "Peaklets",
+            "0.6.0",
+            {
+                "gain_model": [
+                    "cmt_run_id",
+                    "00001",
+                    "to_pe_model",
+                    "ONLINE",
+                    true
+                ],
+                "hit_min_amplitude": [
+                    "cmt_run_id",
+                    "00001",
+                    "hit_thresholds_tpc",
+                    "ONLINE",
+                    true
+                ],
+                "n_tpc_pmts": 494,
+                "peak_left_extension": 30,
+                "peak_min_pmts": 2,
+                "peak_right_extension": 200,
+                "peak_split_filter_wing_width": 70,
+                "peak_split_gof_threshold": [
+                    null,
+                    [
+                        [
+                            0.5,
+                            1.0
+                        ],
+                        [
+                            6.0,
+                            0.4
+                        ]
+                    ],
+                    [
+                        [
+                            2.5,
+                            1.0
+                        ],
+                        [
+                            5.625,
+                            0.4
+                        ]
+                    ]
+                ],
+                "peak_split_iterations": 20,
+                "peak_split_min_area": 40.0,
+                "peaklet_gap_threshold": 700,
+                "peaklet_max_duration": 10000000,
+                "saturation_correction_on": true,
+                "saturation_min_reference_length": 20,
+                "saturation_reference_length": 100,
+                "tight_coincidence_window_left": 50,
+                "tight_coincidence_window_right": 50
+            }
+        ],
+        "pulse_counts": [
+            "PulseProcessing",
+            "0.2.3",
+            {
+                "baseline_samples": 40,
+                "hev_gain_model": [
+                    "disabled",
+                    null
+                ],
+                "hit_min_amplitude": [
+                    "cmt_run_id",
+                    "00001",
+                    "hit_thresholds_tpc",
+                    "ONLINE",
+                    true
+                ],
+                "max_veto_value": null,
+                "n_tpc_pmts": 494,
+                "pmt_pulse_filter": null,
+                "save_outside_hits": [
+                    3,
+                    20
+                ],
+                "tail_veto_duration": 3000000,
+                "tail_veto_pass_extend": 3,
+                "tail_veto_pass_fraction": 0.05,
+                "tail_veto_resolution": 1000,
+                "tail_veto_threshold": 0
+            }
+        ],
+        "truth": [
+            "RawRecordsFromFaxNT",
+            "0.0.0",
+            {
+                "detector": "XENONnT",
+                "fax_config": "fax_config_nt_design.json",
+                "fax_config_override": null,
+                "fax_config_override_from_cmt": {
+                    "drift_time_gate": [
+                        "cmt_run_id",
+                        "00001",
+                        "electron_drift_time_gate",
+                        "ONLINE",
+                        true
+                    ],
+                    "drift_velocity_liquid": [
+                        "cmt_run_id",
+                        "00001",
+                        "electron_drift_velocity",
+                        "ONLINE",
+                        true
+                    ],
+                    "electron_lifetime_liquid": [
+                        "cmt_run_id",
+                        "00001",
+                        "elife",
+                        "ONLINE",
+                        true
+                    ]
+                },
+                "gain_model_mc": [
+                    "cmt_run_id",
+                    "00001",
+                    "to_pe_model",
+                    "ONLINE",
+                    true
+                ],
+                "per_pmt_truth": false,
+                "right_raw_extension": 100000
+            }
+        ]
+    },
+    "lineage_hash": "mogktas274",
+    "run_id": "1",
+    "start": 49900000,
+    "strax_version": "1.2.3",
+    "writing_ended": 1660686060.0035608,
+    "writing_started": 1660686029.1051998
+}

@@ -1,0 +1,142 @@
+{
+    "chunk_target_size_mb": 200,
+    "chunks": [],
+    "compressor": "zstd",
+    "data_kind": "lone_hits",
+    "data_type": "lone_hits",
+    "dtype": "[(('Start time since unix epoch [ns]', 'time'), '<i8'), (('Length of the interval in samples', 'length'), '<i4'), (('Width of one sample [ns]', 'dt'), '<i2'), (('Channel/PMT number', 'channel'), '<i2'), (('Integral [ADC x samples]', 'area'), '<f4'), (('Index of sample in record in which hit starts', 'left'), '<i2'), (('Index of first sample in record just beyond hit (exclusive bound)', 'right'), '<i2'), (('For lone hits, index of sample in record where integration starts', 'left_integration'), '<i2'), (('For lone hits, index of first sample beyond integration region', 'right_integration'), '<i2'), (('Internal (temporary) index of fragment in which hit was found', 'record_i'), '<i4'), (('ADC threshold applied in order to find hits', 'threshold'), '<f4'), (('Maximum amplitude above baseline [ADC counts]', 'height'), '<f4')]",
+    "lineage": {
+        "lone_hits": [
+            "Peaklets",
+            "0.6.0",
+            {
+                "gain_model": [
+                    "cmt_run_id",
+                    "00001",
+                    "to_pe_model",
+                    "ONLINE",
+                    true
+                ],
+                "hit_min_amplitude": [
+                    "cmt_run_id",
+                    "00001",
+                    "hit_thresholds_tpc",
+                    "ONLINE",
+                    true
+                ],
+                "n_tpc_pmts": 494,
+                "peak_left_extension": 30,
+                "peak_min_pmts": 2,
+                "peak_right_extension": 200,
+                "peak_split_filter_wing_width": 70,
+                "peak_split_gof_threshold": [
+                    null,
+                    [
+                        [
+                            0.5,
+                            1.0
+                        ],
+                        [
+                            6.0,
+                            0.4
+                        ]
+                    ],
+                    [
+                        [
+                            2.5,
+                            1.0
+                        ],
+                        [
+                            5.625,
+                            0.4
+                        ]
+                    ]
+                ],
+                "peak_split_iterations": 20,
+                "peak_split_min_area": 40.0,
+                "peaklet_gap_threshold": 700,
+                "peaklet_max_duration": 10000000,
+                "saturation_correction_on": true,
+                "saturation_min_reference_length": 20,
+                "saturation_reference_length": 100,
+                "tight_coincidence_window_left": 50,
+                "tight_coincidence_window_right": 50
+            }
+        ],
+        "pulse_counts": [
+            "PulseProcessing",
+            "0.2.3",
+            {
+                "baseline_samples": 40,
+                "hev_gain_model": [
+                    "disabled",
+                    null
+                ],
+                "hit_min_amplitude": [
+                    "cmt_run_id",
+                    "00001",
+                    "hit_thresholds_tpc",
+                    "ONLINE",
+                    true
+                ],
+                "max_veto_value": null,
+                "n_tpc_pmts": 494,
+                "pmt_pulse_filter": null,
+                "save_outside_hits": [
+                    3,
+                    20
+                ],
+                "tail_veto_duration": 3000000,
+                "tail_veto_pass_extend": 3,
+                "tail_veto_pass_fraction": 0.05,
+                "tail_veto_resolution": 1000,
+                "tail_veto_threshold": 0
+            }
+        ],
+        "truth": [
+            "RawRecordsFromFaxNT",
+            "0.0.0",
+            {
+                "detector": "XENONnT",
+                "fax_config": "/home/napoliion/sim_files/fax_config_nt_sr0_v1.json",
+                "fax_config_override": null,
+                "fax_config_override_from_cmt": {
+                    "drift_time_gate": [
+                        "cmt_run_id",
+                        "00001",
+                        "electron_drift_time_gate",
+                        "ONLINE",
+                        true
+                    ],
+                    "drift_velocity_liquid": [
+                        "cmt_run_id",
+                        "00001",
+                        "electron_drift_velocity",
+                        "ONLINE",
+                        true
+                    ],
+                    "electron_lifetime_liquid": [
+                        "cmt_run_id",
+                        "00001",
+                        "elife",
+                        "ONLINE",
+                        true
+                    ]
+                },
+                "gain_model_mc": [
+                    "cmt_run_id",
+                    "00001",
+                    "to_pe_model",
+                    "ONLINE",
+                    true
+                ],
+                "per_pmt_truth": false,
+                "right_raw_extension": 100000
+            }
+        ]
+    },
+    "lineage_hash": "2n3ilkbh72",
+    "run_id": "1",
+    "strax_version": "1.2.2",
+    "writing_started": 1660673961.8849998
+}

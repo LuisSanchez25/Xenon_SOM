@@ -1,0 +1,57 @@
+{
+    "chunk_target_size_mb": 200,
+    "chunks": [],
+    "compressor": "zstd",
+    "data_kind": "raw_records_he",
+    "data_type": "raw_records_he",
+    "dtype": "[(('Start time since unix epoch [ns]', 'time'), '<i8'), (('Length of the interval in samples', 'length'), '<i4'), (('Width of one sample [ns]', 'dt'), '<i2'), (('Channel/PMT number', 'channel'), '<i2'), (('Length of pulse to which the record belongs (without zero-padding)', 'pulse_length'), '<i4'), (('Fragment number in the pulse', 'record_i'), '<i2'), (('Baseline determined by the digitizer (if this is supported)', 'baseline'), '<i2'), (('Waveform data in raw ADC counts', 'data'), '<i2', (110,))]",
+    "exception": "Traceback (most recent call last):\n\n  File \"/home/luissanchez25/.local/lib/python3.8/site-packages/strax/mailbox.py\", line 281, in _send_from\n    x = next(iterable)\n\n  File \"/home/luissanchez25/.local/lib/python3.8/site-packages/strax/plugin.py\", line 488, in iter\n    yield self.do_compute(chunk_i=chunk_i, **inputs_merged)\n\n  File \"/home/luissanchez25/.local/lib/python3.8/site-packages/strax/plugin.py\", line 596, in do_compute\n    result = self.compute(**kwargs)\n\n  File \"/home/luissanchez25/.local/lib/python3.8/site-packages/wfsim/strax_interface.py\", line 698, in compute\n    result = next(self.sim_iter)\n\n  File \"/home/luissanchez25/.local/lib/python3.8/site-packages/wfsim/strax_interface.py\", line 386, in __call__\n    for channel, left, right, data in self.rawdata(instructions=instructions,\n\n  File \"/home/luissanchez25/.local/lib/python3.8/site-packages/wfsim/core/rawdata.py\", line 133, in __call__\n    for instb_secondary in self.sim_data(instb[instb_run_i]):\n\n  File \"/home/luissanchez25/.local/lib/python3.8/site-packages/wfsim/core/rawdata.py\", line 173, in sim_data\n    self.sim_primary(primary_pulse, instruction, **kwargs)\n\n  File \"/home/luissanchez25/.local/lib/python3.8/site-packages/wfsim/core/rawdata.py\", line 164, in sim_primary\n    self.pulses[primary_pulse](instruction)\n\n  File \"/home/luissanchez25/.local/lib/python3.8/site-packages/wfsim/core/s2.py\", line 119, in __call__\n    self._photon_timings = self.photon_timings(positions=positions,\n\n  File \"/home/luissanchez25/.local/lib/python3.8/site-packages/wfsim/core/s2.py\", line 531, in photon_timings\n    _photon_timings = S2.luminescence_timings_garfield_gasgap(positions, n_photons_per_xy,\n\n  File \"/home/luissanchez25/.local/lib/python3.8/site-packages/wfsim/core/s2.py\", line 477, in luminescence_timings_garfield_gasgap\n    return S2.draw_excitation_times(resource.s2_luminescence_gg['timing_inv_cdf'],\n\n  File \"/home/luissanchez25/.local/lib/python3.8/site-packages/numba/core/dispatcher.py\", line 415, in _compile_for_args\n    error_rewrite(e, 'typing')\n\n  File \"/home/luissanchez25/.local/lib/python3.8/site-packages/numba/core/dispatcher.py\", line 358, in error_rewrite\n    reraise(type(e), e, None)\n\n  File \"/home/luissanchez25/.local/lib/python3.8/site-packages/numba/core/utils.py\", line 80, in reraise\n    raise value.with_traceback(tb)\n\nnumba.core.errors.TypingError: Failed in nopython mode pipeline (step: nopython frontend)\n\u001b[1m\u001b[1mUse of unsupported NumPy function 'numpy.clip' or unsupported use of the function.\n\u001b[1m\nFile \"../.local/lib/python3.8/site-packages/wfsim/core/s2.py\", line 430:\u001b[0m\n\u001b[1m    def draw_excitation_times(inv_cdf_list, hist_indices, nph, diff_nearest_gg, d_gas_gap):\n        <source elided>\n        timings = np.zeros(np.sum(nph))\n\u001b[1m        upper_hist_ind = np.clip(hist_indices+1, 0, len(inv_cdf_list)-1)\n\u001b[0m        \u001b[1m^\u001b[0m\u001b[0m\n\u001b[0m\n\u001b[0m\u001b[1mDuring: typing of get attribute at /home/luissanchez25/.local/lib/python3.8/site-packages/wfsim/core/s2.py (430)\u001b[0m\n\u001b[1m\nFile \"../.local/lib/python3.8/site-packages/wfsim/core/s2.py\", line 430:\u001b[0m\n\u001b[1m    def draw_excitation_times(inv_cdf_list, hist_indices, nph, diff_nearest_gg, d_gas_gap):\n        <source elided>\n        timings = np.zeros(np.sum(nph))\n\u001b[1m        upper_hist_ind = np.clip(hist_indices+1, 0, len(inv_cdf_list)-1)\n\u001b[0m        \u001b[1m^\u001b[0m\u001b[0m\n\n",
+    "lineage": {
+        "truth": [
+            "RawRecordsFromFaxNT",
+            "0.0.0",
+            {
+                "detector": "XENONnT",
+                "fax_config": "/home/luissanchez25/Wfsim_files/private_nt_aux_files/sim_files/fax_config_nt_sr0_v2_mod.json",
+                "fax_config_override": null,
+                "fax_config_override_from_cmt": {
+                    "drift_time_gate": [
+                        "cmt_run_id",
+                        "00001",
+                        "electron_drift_time_gate",
+                        "ONLINE",
+                        true
+                    ],
+                    "drift_velocity_liquid": [
+                        "cmt_run_id",
+                        "00001",
+                        "electron_drift_velocity",
+                        "ONLINE",
+                        true
+                    ],
+                    "electron_lifetime_liquid": [
+                        "cmt_run_id",
+                        "00001",
+                        "elife",
+                        "ONLINE",
+                        true
+                    ]
+                },
+                "gain_model_mc": [
+                    "cmt_run_id",
+                    "00001",
+                    "to_pe_model",
+                    "ONLINE",
+                    true
+                ],
+                "per_pmt_truth": false,
+                "right_raw_extension": 100000
+            }
+        ]
+    },
+    "lineage_hash": "kg5p72q7fu",
+    "run_id": "4",
+    "strax_version": "1.2.3",
+    "writing_ended": 1660693413.4617538,
+    "writing_started": 1660693401.1135216
+}

@@ -1,0 +1,165 @@
+{
+    "chunk_target_size_mb": 200,
+    "chunks": [],
+    "compressor": "blosc",
+    "data_kind": "peaklets",
+    "data_type": "peaklet_classification",
+    "dtype": "[(('Start time since unix epoch [ns]', 'time'), '<i8'), (('Length of the interval in samples', 'length'), '<i4'), (('Width of one sample [ns]', 'dt'), '<i4'), (('Channel/PMT number', 'channel'), '<i2'), (('Classification of the peak(let)', 'type'), '|i1')]",
+    "lineage": {
+        "lone_hits": [
+            "Peaklets",
+            "0.6.0",
+            {
+                "gain_model": [
+                    "cmt_run_id",
+                    "00001",
+                    "to_pe_model",
+                    "ONLINE",
+                    true
+                ],
+                "hit_min_amplitude": [
+                    "cmt_run_id",
+                    "00001",
+                    "hit_thresholds_tpc",
+                    "ONLINE",
+                    true
+                ],
+                "n_tpc_pmts": 494,
+                "peak_left_extension": 30,
+                "peak_min_pmts": 2,
+                "peak_right_extension": 200,
+                "peak_split_filter_wing_width": 70,
+                "peak_split_gof_threshold": [
+                    null,
+                    [
+                        [
+                            0.5,
+                            1.0
+                        ],
+                        [
+                            6.0,
+                            0.4
+                        ]
+                    ],
+                    [
+                        [
+                            2.5,
+                            1.0
+                        ],
+                        [
+                            5.625,
+                            0.4
+                        ]
+                    ]
+                ],
+                "peak_split_iterations": 20,
+                "peak_split_min_area": 40.0,
+                "peaklet_gap_threshold": 700,
+                "peaklet_max_duration": 10000000,
+                "saturation_correction_on": true,
+                "saturation_min_reference_length": 20,
+                "saturation_reference_length": 100,
+                "tight_coincidence_window_left": 50,
+                "tight_coincidence_window_right": 50
+            }
+        ],
+        "peaklet_classification": [
+            "PeakletClassification",
+            "3.0.3",
+            {
+                "n_top_pmts": 253,
+                "s1_flatten_threshold_aft": [
+                    0.6,
+                    100
+                ],
+                "s1_max_rise_time_post100": 200,
+                "s1_min_coincidence": 2,
+                "s1_risetime_aft_parameters": [
+                    -1,
+                    2.6
+                ],
+                "s1_risetime_area_parameters": [
+                    50,
+                    80,
+                    12
+                ],
+                "s2_min_pmts": 4
+            }
+        ],
+        "pulse_counts": [
+            "PulseProcessing",
+            "0.2.3",
+            {
+                "baseline_samples": 40,
+                "hev_gain_model": [
+                    "disabled",
+                    null
+                ],
+                "hit_min_amplitude": [
+                    "cmt_run_id",
+                    "00001",
+                    "hit_thresholds_tpc",
+                    "ONLINE",
+                    true
+                ],
+                "max_veto_value": null,
+                "n_tpc_pmts": 494,
+                "pmt_pulse_filter": null,
+                "save_outside_hits": [
+                    3,
+                    20
+                ],
+                "tail_veto_duration": 3000000,
+                "tail_veto_pass_extend": 3,
+                "tail_veto_pass_fraction": 0.05,
+                "tail_veto_resolution": 1000,
+                "tail_veto_threshold": 0
+            }
+        ],
+        "truth": [
+            "RawRecordsFromFaxNT",
+            "0.0.0",
+            {
+                "detector": "XENONnT",
+                "fax_config": "/home/napoliion/sim_files/fax_config_nt_sr0_v1.json",
+                "fax_config_override": null,
+                "fax_config_override_from_cmt": {
+                    "drift_time_gate": [
+                        "cmt_run_id",
+                        "00001",
+                        "electron_drift_time_gate",
+                        "ONLINE",
+                        true
+                    ],
+                    "drift_velocity_liquid": [
+                        "cmt_run_id",
+                        "00001",
+                        "electron_drift_velocity",
+                        "ONLINE",
+                        true
+                    ],
+                    "electron_lifetime_liquid": [
+                        "cmt_run_id",
+                        "00001",
+                        "elife",
+                        "ONLINE",
+                        true
+                    ]
+                },
+                "gain_model_mc": [
+                    "cmt_run_id",
+                    "00001",
+                    "to_pe_model",
+                    "ONLINE",
+                    true
+                ],
+                "per_pmt_truth": false,
+                "right_raw_extension": 100000
+            }
+        ]
+    },
+    "lineage_hash": "dueo5jvfdg",
+    "run_id": "1",
+    "strax_version": "1.2.2",
+    "writing_started": 1660673961.889413
+}

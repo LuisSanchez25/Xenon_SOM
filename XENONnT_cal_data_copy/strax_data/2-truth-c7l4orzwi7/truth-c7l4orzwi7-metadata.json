@@ -1,0 +1,209 @@
+{
+    "chunk_target_size_mb": 200,
+    "chunks": [
+        {
+            "chunk_i": 0,
+            "end": 10049900000,
+            "filename": "truth-c7l4orzwi7-000000",
+            "filesize": 3453,
+            "first_endtime": 50570944,
+            "first_time": 50569952,
+            "last_endtime": 9950000000,
+            "last_time": 9950000000,
+            "n": 100,
+            "nbytes": 21400,
+            "run_id": "2",
+            "start": 49900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 1,
+            "end": 20049900000,
+            "filename": "truth-c7l4orzwi7-000001",
+            "filesize": 3370,
+            "first_endtime": 10050000000,
+            "first_time": 10050000000,
+            "last_endtime": 19950000000,
+            "last_time": 19950000000,
+            "n": 100,
+            "nbytes": 21400,
+            "run_id": "2",
+            "start": 10049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 2,
+            "end": 30049900000,
+            "filename": "truth-c7l4orzwi7-000002",
+            "filesize": 3556,
+            "first_endtime": 20050536125,
+            "first_time": 20050534704,
+            "last_endtime": 29950156715,
+            "last_time": 29950155679,
+            "n": 100,
+            "nbytes": 21400,
+            "run_id": "2",
+            "start": 20049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 3,
+            "end": 40049900000,
+            "filename": "truth-c7l4orzwi7-000003",
+            "filesize": 3183,
+            "first_endtime": 30050012750,
+            "first_time": 30050011735,
+            "last_endtime": 39950000000,
+            "last_time": 39950000000,
+            "n": 100,
+            "nbytes": 21400,
+            "run_id": "2",
+            "start": 30049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 4,
+            "end": 50049900000,
+            "filename": "truth-c7l4orzwi7-000004",
+            "filesize": 2964,
+            "first_endtime": 40050000000,
+            "first_time": 40050000000,
+            "last_endtime": 49950000000,
+            "last_time": 49950000000,
+            "n": 100,
+            "nbytes": 21400,
+            "run_id": "2",
+            "start": 40049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 5,
+            "end": 60049900000,
+            "filename": "truth-c7l4orzwi7-000005",
+            "filesize": 3462,
+            "first_endtime": 50050000000,
+            "first_time": 50050000000,
+            "last_endtime": 59950141569,
+            "last_time": 59950140459,
+            "n": 100,
+            "nbytes": 21400,
+            "run_id": "2",
+            "start": 50049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 6,
+            "end": 70049900000,
+            "filename": "truth-c7l4orzwi7-000006",
+            "filesize": 3068,
+            "first_endtime": 60050000000,
+            "first_time": 60050000000,
+            "last_endtime": 69950000000,
+            "last_time": 69950000000,
+            "n": 100,
+            "nbytes": 21400,
+            "run_id": "2",
+            "start": 60049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 7,
+            "end": 80049900000,
+            "filename": "truth-c7l4orzwi7-000007",
+            "filesize": 3755,
+            "first_endtime": 70050114185,
+            "first_time": 70050113162,
+            "last_endtime": 79950000000,
+            "last_time": 79950000000,
+            "n": 100,
+            "nbytes": 21400,
+            "run_id": "2",
+            "start": 70049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 8,
+            "end": 90049900000,
+            "filename": "truth-c7l4orzwi7-000008",
+            "filesize": 3224,
+            "first_endtime": 80050000000,
+            "first_time": 80050000000,
+            "last_endtime": 89950000000,
+            "last_time": 89950000000,
+            "n": 100,
+            "nbytes": 21400,
+            "run_id": "2",
+            "start": 80049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 9,
+            "end": 97250205110,
+            "filename": "truth-c7l4orzwi7-000009",
+            "filesize": 2456,
+            "first_endtime": 90050000000,
+            "first_time": 90050000000,
+            "last_endtime": 97250204138,
+            "last_time": 97250202822,
+            "n": 73,
+            "nbytes": 15622,
+            "run_id": "2",
+            "start": 90049900000,
+            "subruns": null
+        }
+    ],
+    "compressor": "zstd",
+    "data_kind": "truth",
+    "data_type": "truth",
+    "dtype": "[(('Waveform simulator event number.', 'event_number'), '<i4'), (('Quanta type (S1 photons or S2 electrons)', 'type'), '|i1'), (('Time of the interaction [ns]', 'time'), '<i8'), (('X position of the cluster [cm]', 'x'), '<f4'), (('Y position of the cluster [cm]', 'y'), '<f4'), (('Z position of the cluster [cm]', 'z'), '<f4'), (('Number of quanta', 'amp'), '<i4'), (('Recoil type of interaction.', 'recoil'), '|i1'), (('Energy deposit of interaction', 'e_dep'), '<f4'), (('Eventid like in geant4 output rootfile', 'g4id'), '<i4'), (('Volume id giving the detector subvolume', 'vol_id'), '<i4'), (('Local field [ V / cm ]', 'local_field'), '<f8'), (('Number of excitons', 'n_excitons'), '<i4'), (('X position of the primary particle [cm]', 'x_pri'), '<f4'), (('Y position of the primary particle [cm]', 'y_pri'), '<f4'), (('Z position of the primary particle [cm]', 'z_pri'), '<f4'), (('End time of the interaction [ns]', 'endtime'), '<i8'), (('Number of simulated electrons', 'n_electron'), '<i4'), (('Number of photons reaching PMT', 'n_photon'), '<i4'), (('Number of photons + dpe passing', 'n_pe'), '<i4'), (('Number of photons passing trigger', 'n_photon_trigger'), '<i4'), (('Number of photons + dpe passing trigger', 'n_pe_trigger'), '<i4'), (('Raw area in pe', 'raw_area'), '<f8'), (('Raw area in pe passing trigger', 'raw_area_trigger'), '<f8'), (('Number of photons reaching PMT (bottom)', 'n_photon_bottom'), '<i4'), (('Number of photons + dpe passing (bottom)', 'n_pe_bottom'), '<i4'), (('Number of photons passing trigger (bottom)', 'n_photon_trigger_bottom'), '<i4'), (('Number of photons + dpe passing trigger (bottom)', 'n_pe_trigger_bottom'), '<i4'), (('Raw area in pe (bottom)', 'raw_area_bottom'), '<f8'), (('Raw area in pe passing trigger (bottom)', 'raw_area_trigger_bottom'), '<f8'), (('Arrival time of the first photon [ns]', 't_first_photon'), '<f8'), (('Arrival time of the last photon [ns]', 't_last_photon'), '<f8'), (('Mean time of the photons [ns]', 't_mean_photon'), '<f8'), (('Standard deviation of photon arrival times [ns]', 't_sigma_photon'), '<f8'), (('X field-distorted mean position of the electrons [cm]', 'x_mean_electron'), '<f4'), (('Y field-distorted mean position of the electrons [cm]', 'y_mean_electron'), '<f4'), (('Arrival time of the first electron [ns]', 't_first_electron'), '<f8'), (('Arrival time of the last electron [ns]', 't_last_electron'), '<f8'), (('Mean time of the electrons [ns]', 't_mean_electron'), '<f8'), (('Standard deviation of electron arrival times [ns]', 't_sigma_electron'), '<f8')]",
+    "end": 97250205110,
+    "lineage": {
+        "truth": [
+            "RawRecordsFromFaxNT",
+            "0.0.0",
+            {
+                "detector": "XENONnT",
+                "fax_config": "fax_config_nt_design.json",
+                "fax_config_override": null,
+                "fax_config_override_from_cmt": {
+                    "drift_time_gate": [
+                        "cmt_run_id",
+                        "00001",
+                        "electron_drift_time_gate",
+                        "ONLINE",
+                        true
+                    ],
+                    "drift_velocity_liquid": [
+                        "cmt_run_id",
+                        "00001",
+                        "electron_drift_velocity",
+                        "ONLINE",
+                        true
+                    ],
+                    "electron_lifetime_liquid": [
+                        "cmt_run_id",
+                        "00001",
+                        "elife",
+                        "ONLINE",
+                        true
+                    ]
+                },
+                "gain_model_mc": [
+                    "cmt_run_id",
+                    "00001",
+                    "to_pe_model",
+                    "ONLINE",
+                    true
+                ],
+                "per_pmt_truth": false,
+                "right_raw_extension": 100000
+            }
+        ]
+    },
+    "lineage_hash": "c7l4orzwi7",
+    "run_id": "2",
+    "start": 49900000,
+    "strax_version": "1.2.3",
+    "writing_ended": 1660688962.6897967,
+    "writing_started": 1660688911.5505366
+}

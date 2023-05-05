@@ -1,0 +1,959 @@
+{
+    "chunk_target_size_mb": 200,
+    "chunks": [
+        {
+            "chunk_i": 0,
+            "end": 10049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 49900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 1,
+            "end": 20049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 10049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 2,
+            "end": 30049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 20049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 3,
+            "end": 40049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 30049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 4,
+            "end": 50049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 40049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 5,
+            "end": 60049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 50049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 6,
+            "end": 70049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 60049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 7,
+            "end": 80049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 70049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 8,
+            "end": 90049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 80049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 9,
+            "end": 100049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 90049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 10,
+            "end": 110049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 100049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 11,
+            "end": 120049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 110049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 12,
+            "end": 130049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 120049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 13,
+            "end": 140049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 130049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 14,
+            "end": 150049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 140049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 15,
+            "end": 160049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 150049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 16,
+            "end": 170049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 160049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 17,
+            "end": 180049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 170049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 18,
+            "end": 190049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 180049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 19,
+            "end": 200049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 190049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 20,
+            "end": 210049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 200049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 21,
+            "end": 220049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 210049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 22,
+            "end": 230049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 220049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 23,
+            "end": 240049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 230049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 24,
+            "end": 250049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 240049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 25,
+            "end": 260049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 250049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 26,
+            "end": 270049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 260049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 27,
+            "end": 280049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 270049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 28,
+            "end": 290049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 280049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 29,
+            "end": 300049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 290049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 30,
+            "end": 310049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 300049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 31,
+            "end": 320049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 310049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 32,
+            "end": 330049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 320049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 33,
+            "end": 340049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 330049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 34,
+            "end": 350049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 340049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 35,
+            "end": 360049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 350049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 36,
+            "end": 370049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 360049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 37,
+            "end": 380049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 370049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 38,
+            "end": 390049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 380049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 39,
+            "end": 400049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 390049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 40,
+            "end": 410049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 400049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 41,
+            "end": 420049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 410049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 42,
+            "end": 430049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 420049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 43,
+            "end": 440049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 430049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 44,
+            "end": 450049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 440049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 45,
+            "end": 460049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 450049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 46,
+            "end": 470049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 460049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 47,
+            "end": 480049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 470049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 48,
+            "end": 490049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 480049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 49,
+            "end": 500049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 490049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 50,
+            "end": 510049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 500049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 51,
+            "end": 520049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 510049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 52,
+            "end": 530049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 520049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 53,
+            "end": 540049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 530049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 54,
+            "end": 550049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 540049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 55,
+            "end": 560049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 550049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 56,
+            "end": 570049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 560049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 57,
+            "end": 580049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 570049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 58,
+            "end": 590049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 580049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 59,
+            "end": 600049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 590049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 60,
+            "end": 610049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 600049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 61,
+            "end": 620049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 610049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 62,
+            "end": 630049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 620049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 63,
+            "end": 640049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 630049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 64,
+            "end": 650049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 640049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 65,
+            "end": 660049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 650049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 66,
+            "end": 670049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 660049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 67,
+            "end": 680049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 670049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 68,
+            "end": 690049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 680049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 69,
+            "end": 700049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 690049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 70,
+            "end": 710049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 700049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 71,
+            "end": 720049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 710049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 72,
+            "end": 730049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 720049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 73,
+            "end": 740049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 730049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 74,
+            "end": 750049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 740049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 75,
+            "end": 760049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 750049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 76,
+            "end": 770049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 760049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 77,
+            "end": 780049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 770049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 78,
+            "end": 790049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 780049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 79,
+            "end": 800049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 790049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 80,
+            "end": 810049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 800049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 81,
+            "end": 820049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 810049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 82,
+            "end": 830049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 820049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 83,
+            "end": 840049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 830049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 84,
+            "end": 850049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 840049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 85,
+            "end": 860049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 850049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 86,
+            "end": 870049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 860049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 87,
+            "end": 880049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 870049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 88,
+            "end": 890049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 880049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 89,
+            "end": 900049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 890049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 90,
+            "end": 910049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 900049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 91,
+            "end": 920049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 910049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 92,
+            "end": 930049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 920049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 93,
+            "end": 940049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 930049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 94,
+            "end": 950049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 940049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 95,
+            "end": 960049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 950049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 96,
+            "end": 970049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 960049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 97,
+            "end": 980049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 970049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 98,
+            "end": 990049900000,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 980049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 99,
+            "end": 998650076010,
+            "n": 0,
+            "nbytes": 0,
+            "run_id": "1",
+            "start": 990049900000,
+            "subruns": null
+        }
+    ],
+    "compressor": "zstd",
+    "data_kind": "raw_records_aqmon",
+    "data_type": "raw_records_aqmon",
+    "dtype": "[(('Start time since unix epoch [ns]', 'time'), '<i8'), (('Length of the interval in samples', 'length'), '<i4'), (('Width of one sample [ns]', 'dt'), '<i2'), (('Channel/PMT number', 'channel'), '<i2'), (('Length of pulse to which the record belongs (without zero-padding)', 'pulse_length'), '<i4'), (('Fragment number in the pulse', 'record_i'), '<i2'), (('Baseline determined by the digitizer (if this is supported)', 'baseline'), '<i2'), (('Waveform data in raw ADC counts', 'data'), '<i2', (110,))]",
+    "end": 998650076010,
+    "lineage": {
+        "truth": [
+            "RawRecordsFromFaxNT",
+            "0.0.0",
+            {
+                "detector": "XENONnT",
+                "fax_config": "fax_config_nt_design.json",
+                "fax_config_override": null,
+                "fax_config_override_from_cmt": {
+                    "drift_time_gate": [
+                        "cmt_run_id",
+                        "00001",
+                        "electron_drift_time_gate",
+                        "ONLINE",
+                        true
+                    ],
+                    "drift_velocity_liquid": [
+                        "cmt_run_id",
+                        "00001",
+                        "electron_drift_velocity",
+                        "ONLINE",
+                        true
+                    ],
+                    "electron_lifetime_liquid": [
+                        "cmt_run_id",
+                        "00001",
+                        "elife",
+                        "ONLINE",
+                        true
+                    ]
+                },
+                "gain_model_mc": [
+                    "cmt_run_id",
+                    "00001",
+                    "to_pe_model",
+                    "ONLINE",
+                    true
+                ],
+                "per_pmt_truth": false,
+                "right_raw_extension": 100000
+            }
+        ]
+    },
+    "lineage_hash": "c7l4orzwi7",
+    "run_id": "1",
+    "start": 49900000,
+    "strax_version": "1.2.3",
+    "writing_ended": 1660685236.3984787,
+    "writing_started": 1660684956.367344
+}

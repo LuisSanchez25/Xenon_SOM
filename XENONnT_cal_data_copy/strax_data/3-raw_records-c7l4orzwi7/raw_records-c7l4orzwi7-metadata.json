@@ -1,0 +1,209 @@
+{
+    "chunk_target_size_mb": 200,
+    "chunks": [
+        {
+            "chunk_i": 0,
+            "end": 10049900000,
+            "filename": "raw_records-c7l4orzwi7-000000",
+            "filesize": 6118,
+            "first_endtime": 50008710,
+            "first_time": 50007700,
+            "last_endtime": 9950004370,
+            "last_time": 9950003380,
+            "n": 82,
+            "nbytes": 20008,
+            "run_id": "3",
+            "start": 49900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 1,
+            "end": 20049900000,
+            "filename": "raw_records-c7l4orzwi7-000001",
+            "filesize": 5973,
+            "first_endtime": 10050008170,
+            "first_time": 10050007160,
+            "last_endtime": 19650004990,
+            "last_time": 19650003980,
+            "n": 79,
+            "nbytes": 19276,
+            "run_id": "3",
+            "start": 10049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 2,
+            "end": 30049900000,
+            "filename": "raw_records-c7l4orzwi7-000002",
+            "filesize": 5938,
+            "first_endtime": 20150004360,
+            "first_time": 20150003350,
+            "last_endtime": 29850003910,
+            "last_time": 29850002900,
+            "n": 79,
+            "nbytes": 19276,
+            "run_id": "3",
+            "start": 20049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 3,
+            "end": 40049900000,
+            "filename": "raw_records-c7l4orzwi7-000003",
+            "filesize": 4732,
+            "first_endtime": 30250009070,
+            "first_time": 30250008080,
+            "last_endtime": 39550009050,
+            "last_time": 39550008040,
+            "n": 61,
+            "nbytes": 14884,
+            "run_id": "3",
+            "start": 30049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 4,
+            "end": 50049900000,
+            "filename": "raw_records-c7l4orzwi7-000004",
+            "filesize": 5240,
+            "first_endtime": 40050002250,
+            "first_time": 40050001240,
+            "last_endtime": 49950006380,
+            "last_time": 49950005370,
+            "n": 67,
+            "nbytes": 16348,
+            "run_id": "3",
+            "start": 40049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 5,
+            "end": 60049900000,
+            "filename": "raw_records-c7l4orzwi7-000005",
+            "filesize": 6344,
+            "first_endtime": 50050003990,
+            "first_time": 50050002890,
+            "last_endtime": 59950008280,
+            "last_time": 59950007270,
+            "n": 85,
+            "nbytes": 20740,
+            "run_id": "3",
+            "start": 50049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 6,
+            "end": 70049900000,
+            "filename": "raw_records-c7l4orzwi7-000006",
+            "filesize": 6354,
+            "first_endtime": 60050008410,
+            "first_time": 60050007400,
+            "last_endtime": 69850007770,
+            "last_time": 69850006760,
+            "n": 83,
+            "nbytes": 20252,
+            "run_id": "3",
+            "start": 60049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 7,
+            "end": 80049900000,
+            "filename": "raw_records-c7l4orzwi7-000007",
+            "filesize": 5888,
+            "first_endtime": 70050005380,
+            "first_time": 70050004370,
+            "last_endtime": 79850009270,
+            "last_time": 79850009140,
+            "n": 79,
+            "nbytes": 19276,
+            "run_id": "3",
+            "start": 70049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 8,
+            "end": 90049900000,
+            "filename": "raw_records-c7l4orzwi7-000008",
+            "filesize": 6545,
+            "first_endtime": 80050006490,
+            "first_time": 80050005460,
+            "last_endtime": 89850005710,
+            "last_time": 89850004700,
+            "n": 87,
+            "nbytes": 21228,
+            "run_id": "3",
+            "start": 80049900000,
+            "subruns": null
+        },
+        {
+            "chunk_i": 9,
+            "end": 99950008500,
+            "filename": "raw_records-c7l4orzwi7-000009",
+            "filesize": 5895,
+            "first_endtime": 90050007650,
+            "first_time": 90050006640,
+            "last_endtime": 99950007320,
+            "last_time": 99950006310,
+            "n": 78,
+            "nbytes": 19032,
+            "run_id": "3",
+            "start": 90049900000,
+            "subruns": null
+        }
+    ],
+    "compressor": "zstd",
+    "data_kind": "raw_records",
+    "data_type": "raw_records",
+    "dtype": "[(('Start time since unix epoch [ns]', 'time'), '<i8'), (('Length of the interval in samples', 'length'), '<i4'), (('Width of one sample [ns]', 'dt'), '<i2'), (('Channel/PMT number', 'channel'), '<i2'), (('Length of pulse to which the record belongs (without zero-padding)', 'pulse_length'), '<i4'), (('Fragment number in the pulse', 'record_i'), '<i2'), (('Baseline determined by the digitizer (if this is supported)', 'baseline'), '<i2'), (('Waveform data in raw ADC counts', 'data'), '<i2', (110,))]",
+    "end": 99950008500,
+    "lineage": {
+        "truth": [
+            "RawRecordsFromFaxNT",
+            "0.0.0",
+            {
+                "detector": "XENONnT",
+                "fax_config": "fax_config_nt_design.json",
+                "fax_config_override": null,
+                "fax_config_override_from_cmt": {
+                    "drift_time_gate": [
+                        "cmt_run_id",
+                        "00001",
+                        "electron_drift_time_gate",
+                        "ONLINE",
+                        true
+                    ],
+                    "drift_velocity_liquid": [
+                        "cmt_run_id",
+                        "00001",
+                        "electron_drift_velocity",
+                        "ONLINE",
+                        true
+                    ],
+                    "electron_lifetime_liquid": [
+                        "cmt_run_id",
+                        "00001",
+                        "elife",
+                        "ONLINE",
+                        true
+                    ]
+                },
+                "gain_model_mc": [
+                    "cmt_run_id",
+                    "00001",
+                    "to_pe_model",
+                    "ONLINE",
+                    true
+                ],
+                "per_pmt_truth": false,
+                "right_raw_extension": 100000
+            }
+        ]
+    },
+    "lineage_hash": "c7l4orzwi7",
+    "run_id": "3",
+    "start": 49900000,
+    "strax_version": "1.2.3",
+    "writing_ended": 1660693293.8963242,
+    "writing_started": 1660693237.8079743
+}

@@ -1,0 +1,104 @@
+{
+    "chunk_target_size_mb": 200,
+    "chunks": [
+        {
+            "chunk_i": 0,
+            "end": 998650076010,
+            "filename": "pulse_counts-uhyfnrqqxz-000000",
+            "filesize": 28098,
+            "first_endtime": 10049900000,
+            "first_time": 49900000,
+            "last_endtime": 998650076010,
+            "last_time": 990049900000,
+            "n": 100,
+            "nbytes": 1878800,
+            "run_id": "1",
+            "start": 49900000,
+            "subruns": null
+        }
+    ],
+    "compressor": "zstd",
+    "data_kind": "pulse_counts",
+    "data_type": "pulse_counts",
+    "dtype": "[(('Start time of the chunk', 'time'), '<i8'), (('End time of the chunk', 'endtime'), '<i8'), (('Number of pulses', 'pulse_count'), '<i8', (494,)), (('Number of lone pulses', 'lone_pulse_count'), '<i8', (494,)), (('Integral of all pulses in ADC_count x samples', 'pulse_area'), '<i8', (494,)), (('Integral of lone pulses in ADC_count x samples', 'lone_pulse_area'), '<i8', (494,)), (('Average baseline', 'baseline_mean'), '<i2', (494,)), (('Average baseline rms', 'baseline_rms_mean'), '<f4', (494,))]",
+    "end": 998650076010,
+    "lineage": {
+        "pulse_counts": [
+            "PulseProcessing",
+            "0.2.3",
+            {
+                "baseline_samples": 40,
+                "hev_gain_model": [
+                    "disabled",
+                    null
+                ],
+                "hit_min_amplitude": [
+                    "cmt_run_id",
+                    "00001",
+                    "hit_thresholds_tpc",
+                    "ONLINE",
+                    true
+                ],
+                "max_veto_value": null,
+                "n_tpc_pmts": 494,
+                "pmt_pulse_filter": null,
+                "save_outside_hits": [
+                    3,
+                    20
+                ],
+                "tail_veto_duration": 3000000,
+                "tail_veto_pass_extend": 3,
+                "tail_veto_pass_fraction": 0.05,
+                "tail_veto_resolution": 1000,
+                "tail_veto_threshold": 0
+            }
+        ],
+        "truth": [
+            "RawRecordsFromFaxNT",
+            "0.0.0",
+            {
+                "detector": "XENONnT",
+                "fax_config": "fax_config_nt_design.json",
+                "fax_config_override": null,
+                "fax_config_override_from_cmt": {
+                    "drift_time_gate": [
+                        "cmt_run_id",
+                        "00001",
+                        "electron_drift_time_gate",
+                        "ONLINE",
+                        true
+                    ],
+                    "drift_velocity_liquid": [
+                        "cmt_run_id",
+                        "00001",
+                        "electron_drift_velocity",
+                        "ONLINE",
+                        true
+                    ],
+                    "electron_lifetime_liquid": [
+                        "cmt_run_id",
+                        "00001",
+                        "elife",
+                        "ONLINE",
+                        true
+                    ]
+                },
+                "gain_model_mc": [
+                    "cmt_run_id",
+                    "00001",
+                    "to_pe_model",
+                    "ONLINE",
+                    true
+                ],
+                "per_pmt_truth": false,
+                "right_raw_extension": 100000
+            }
+        ]
+    },
+    "lineage_hash": "uhyfnrqqxz",
+    "run_id": "1",
+    "start": 49900000,
+    "strax_version": "1.2.3",
+    "writing_ended": 1660686060.051573,
+    "writing_started": 1660686029.0906992
+}
